@@ -1,0 +1,97 @@
+
+kotlin
+
+-2017 - Google IO announced
+-given by jetbrains
+- Kotlin is a modern PL
+-so many features
+-null safety
+
+
+
+in order to learn any OOPL
+
+1. Class
+2. Data
+3. Object
+4. Behaviour
+
+OOPS features
+
+Encap
+inhe
+poly
+abstraction
+
+----------------
+
+datatype-
+
+Variables:  -Mutable :: var keywords
+            -Immutable :: val keywords
+            EG1 :: in Naresh IT
+
+            EG2 :: Taking input from user
+               readLine() -> this alone will show warning :: that there is a chance of getting a null pointer
+               exception here.
+               Inorder to fix it, will declare readLine()!! :: It means that (!!, called as assert not null operator)
+               we are telling, NOO the method is initialized
+               these all are features :)
+
+            EG3 :: Data type declaration of specific type
+
+            EG4 :: Assigning value with null, and later will assigned it
+
+============================Function In Kotlin==============================================
+
+- Sum fun we are creating --> Demonstration of funtions in Kotlin :: EG5
+
+- Eg of interoperability, create one java class and call kotlin code in it.
+
+Test.kt
+=======
+
+fun main(args:Array<String>)
+{
+    println(MyTest().todayInfo())
+}
+
+MyTest.java
+===========
+
+public class MyTest{
+
+    public String todayInfo()
+    {
+
+    }
+
+}
+
+- The 90% syntax of kotlin and swift are same.
+
+function declaration in kotlin
+
+fun displayTodayInfo():String
+{
+    var msg = "Today is : 21-july-2018"
+    return msg
+}
+
+function declaration in swift
+
+func displayTodayInfo()->String
+{
+    var msg = "Today is : 21-july-2018"
+    return msg
+}
+
+===============================Constructors=================================================
+usage:: its is used to initialize instance variables at the time of object creation
+
+Constructors in Kotlin
+    1. Primary Constructors
+    2. Secondary Constructors
+
+Eg::6
+-----
